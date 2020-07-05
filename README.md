@@ -5,7 +5,7 @@ The neuralNet was implemented in c++. It allows you to train feedforward neural 
 
 
 ## usage
-The `bin/net_example` loads dataset "mnist_inputs.txt" and "mnist_results.txt" and train for 10 epochs. You can find the MNIST dataset at [here](http://yann.lecun.com/exdb/mnist/).
+The `bin/net_example` loads dataset "mnist_inputs.txt"(x) and "mnist_results.txt"(y) and trains for 10 epochs. You can find the MNIST dataset at [here](http://yann.lecun.com/exdb/mnist/).
 ```
 UNIX> pwd
 /yourpath/neuralNet
