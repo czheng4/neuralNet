@@ -18,7 +18,7 @@ bin/matrix_example:  obj/matrix_example.o
 	g++ $(FLAGS) -o $@ $< $(INCLUDE)
 
 bin/net_example: obj/net_example.o obj/net.o
-	g++ $(FLAGS) -o $@ $< $(INCLUDE)
+	g++ $(FLAGS) -o $@ $^ $(INCLUDE)
 
 clean: 
 	rm obj/* bin/*
